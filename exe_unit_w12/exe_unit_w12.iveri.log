@@ -1,0 +1,2 @@
+exe_unit_w12.sv:21: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+exe_unit_w12.sv:21: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
