@@ -1,0 +1,108 @@
+$date
+	Tue Dec 12 00:46:16 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module setbit_tb $end
+$var wire 4 ! s_synth [3:0] $end
+$var wire 4 " s_status [3:0] $end
+$var wire 4 # s_out [3:0] $end
+$var reg 4 $ s_a [3:0] $end
+$var reg 4 % s_b [3:0] $end
+$scope module sb_model $end
+$var wire 4 & i_argA [3:0] $end
+$var wire 4 ' i_argB [3:0] $end
+$var reg 4 ( o_result [3:0] $end
+$var reg 4 ) o_status [3:0] $end
+$upscope $end
+$scope module sb_synth $end
+$var wire 1 * _00_ $end
+$var wire 1 + _01_ $end
+$var wire 1 , _02_ $end
+$var wire 1 - _03_ $end
+$var wire 1 . _04_ $end
+$var wire 1 / _05_ $end
+$var wire 1 0 _06_ $end
+$var wire 1 1 _07_ $end
+$var wire 1 2 _08_ $end
+$var wire 1 3 _09_ $end
+$var wire 1 4 _10_ $end
+$var wire 1 5 _11_ $end
+$var wire 1 6 _12_ $end
+$var wire 1 7 _13_ $end
+$var wire 4 8 i_argA [3:0] $end
+$var wire 4 9 i_argB [3:0] $end
+$var wire 4 : o_status [3:0] $end
+$var wire 4 ; o_result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 ;
+b0 :
+b10 9
+b0 8
+07
+06
+15
+14
+03
+02
+01
+00
+1/
+1.
+1-
+1,
+1+
+0*
+b0 )
+b100 (
+b10 '
+b0 &
+b10 %
+b0 $
+b100 #
+b0 "
+b100 !
+$end
+#10000
+12
+05
+b10 !
+b10 ;
+1*
+0+
+04
+13
+b10 #
+b10 (
+b1 %
+b1 '
+b1 9
+b10 $
+b10 &
+b10 8
+#20000
+b1 :
+b0 !
+b0 ;
+0.
+0,
+0-
+b1 "
+b1 )
+b0 #
+b0 (
+b1101 %
+b1101 '
+b1101 9
+b0 $
+b0 &
+b0 8
+#30000
