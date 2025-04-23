@@ -1,0 +1,84 @@
+$date
+	Thu Nov 30 22:37:15 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module dodawanie_tb $end
+$var wire 4 ! s_synth [3:0] $end
+$var wire 4 " s_out [3:0] $end
+$var reg 4 # s_a [3:0] $end
+$var reg 4 $ s_b [3:0] $end
+$scope module dod_model $end
+$var wire 4 % i_argA [3:0] $end
+$var wire 4 & i_argB [3:0] $end
+$var reg 4 ' o_result [3:0] $end
+$upscope $end
+$scope module dod_synth $end
+$var wire 1 ( _00_ $end
+$var wire 1 ) _01_ $end
+$var wire 1 * _02_ $end
+$var wire 1 + _03_ $end
+$var wire 1 , _04_ $end
+$var wire 1 - _05_ $end
+$var wire 1 . _06_ $end
+$var wire 1 / _07_ $end
+$var wire 1 0 _08_ $end
+$var wire 1 1 _09_ $end
+$var wire 4 2 i_argA [3:0] $end
+$var wire 4 3 i_argB [3:0] $end
+$var wire 4 4 o_result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 4
+b10 3
+b110 2
+01
+10
+1/
+1.
+0-
+1,
+0+
+0*
+1)
+0(
+b1000 '
+b10 &
+b110 %
+b10 $
+b110 #
+b1000 "
+b1000 !
+$end
+#20000
+00
+0/
+0.
+b101 !
+b101 4
+b101 "
+b101 '
+b11 #
+b11 %
+b11 2
+#40000
+0,
+1(
+b10 !
+b10 4
+0)
+b10 "
+b10 '
+b1 $
+b1 &
+b1 3
+b1 #
+b1 %
+b1 2
