@@ -1,0 +1,68 @@
+$date
+	Sun Dec  3 13:37:18 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module change_tb $end
+$var wire 4 ! s_synth [3:0] $end
+$var wire 4 " s_out [3:0] $end
+$var reg 4 # s_a [3:0] $end
+$scope module ch_model $end
+$var wire 4 $ i_argA [3:0] $end
+$var reg 4 % b [3:0] $end
+$var reg 4 & o_result [3:0] $end
+$var integer 32 ' k [31:0] $end
+$upscope $end
+$scope module ch_synth $end
+$var wire 1 ( _00_ $end
+$var wire 1 ) _01_ $end
+$var wire 1 * _02_ $end
+$var wire 1 + _03_ $end
+$var wire 4 , i_argA [3:0] $end
+$var wire 4 - o_result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1001 -
+b1111 ,
+1+
+1*
+1)
+1(
+b11 '
+b1001 &
+b1000 %
+b1111 $
+b1111 #
+b1001 "
+b1001 !
+$end
+#10000
+0(
+b1011 !
+b1011 -
+b1011 "
+b1011 &
+b1010 %
+b11 '
+b1101 #
+b1101 $
+b1101 ,
+#15000
+0+
+0)
+0*
+b10 "
+b10 &
+b10 !
+b10 -
+b10 #
+b10 $
+b10 ,
+#20000
