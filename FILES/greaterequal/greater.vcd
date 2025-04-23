@@ -1,0 +1,129 @@
+$date
+	Fri Dec  1 12:16:34 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module greater_tb $end
+$var wire 4 ! s_synth [3:0] $end
+$var wire 4 " s_out [3:0] $end
+$var reg 4 # s_a [3:0] $end
+$var reg 4 $ s_b [3:0] $end
+$scope module gre_model $end
+$var wire 4 % i_argA [3:0] $end
+$var wire 4 & i_argB [3:0] $end
+$var reg 4 ' o_result [3:0] $end
+$upscope $end
+$scope module gre_synth $end
+$var wire 1 ( _00_ $end
+$var wire 1 ) _01_ $end
+$var wire 1 * _02_ $end
+$var wire 1 + _03_ $end
+$var wire 1 , _04_ $end
+$var wire 1 - _05_ $end
+$var wire 1 . _06_ $end
+$var wire 1 / _07_ $end
+$var wire 1 0 _08_ $end
+$var wire 1 1 _09_ $end
+$var wire 1 2 _10_ $end
+$var wire 1 3 _11_ $end
+$var wire 1 4 _12_ $end
+$var wire 1 5 _13_ $end
+$var wire 1 6 _14_ $end
+$var wire 1 7 _15_ $end
+$var wire 1 8 _16_ $end
+$var wire 4 9 i_argA [3:0] $end
+$var wire 4 : i_argB [3:0] $end
+$var wire 4 ; o_result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 ;
+b10 :
+b110 9
+18
+17
+16
+15
+04
+13
+12
+11
+10
+1/
+1.
+0-
+1,
+1+
+0*
+1)
+1(
+b110 '
+b10 &
+b110 %
+b10 $
+b110 #
+b110 "
+b110 !
+$end
+#20000
+06
+05
+b11 !
+b11 ;
+b11 "
+b11 '
+b11 #
+b11 %
+b11 9
+#40000
+18
+17
+13
+12
+1*
+0+
+11
+b1 !
+b1 ;
+b1 "
+b1 '
+b1 $
+b1 &
+b1 :
+b1 #
+b1 %
+b1 9
+#60000
+b0 !
+b0 ;
+08
+07
+03
+02
+00
+01
+0)
+0*
+1+
+b0 "
+b0 '
+b110 $
+b110 &
+b110 :
+#80000
+0/
+0.
+0+
+11
+b111 $
+b111 &
+b111 :
+b10 #
+b10 %
+b10 9

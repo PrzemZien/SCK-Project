@@ -1,0 +1,13 @@
+
+read_verilog -sv greater.sv 
+copy greater greater_rtl
+hierarchy -top greater_rtl
+synth
+
+abc -g AND,OR,XOR
+
+opt_clean
+
+write_verilog -noattr greater_rtl.sv
+
+stat -tech cmos
